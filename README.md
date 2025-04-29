@@ -122,11 +122,11 @@ The `ue_mobility_controller.py` script provides the following features:
 - Log mobility events to a JSON file
 - Clean up resources
 
-### 4.2 Random Behavior Generation
+### 4.2 Random Behavior Generation TO DO
 
 UE behaviors and channel variations are generated randomly, including:
 
-- Channel fading models: EPA5, EVA70, ETU300
+- Channel fading models: EPA5, EVA70, ETU300 
 - Delay simulation: varying delay cycles and max/min delays
 - Radio link failure simulation: random connect/disconnect timings
 
@@ -153,7 +153,7 @@ The `rrc_trace_analyzer.py` script implements:
 - Creating UE connection timelines
 - Producing detailed analysis reports
 
-### 5.3 Trace Visualization Tool
+### 5.3 Trace Visualization Tool TO DO
 
 The `rrc_trace_visualizer.py` script implements:
 
