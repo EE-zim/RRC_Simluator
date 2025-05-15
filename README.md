@@ -2,6 +2,8 @@
 
 This document details how to use srsRAN to set up a simulated 5G network environment, including a core network, two gNBs, and three UEs, and capture RRC protocol traces.
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/EE-zim/nrRRC_Simulator)
+
 ## 1. Project Overview
 
 This project accomplishes the following:
