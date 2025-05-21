@@ -18,6 +18,7 @@ from datetime import datetime
 import pcap
 import struct
 import binascii
+from rrc_utils import parse_rrc_log
 
 class RRCTraceCapture:
     def __init__(self, output_dir="/home/ubuntu/rrc_traces"):
@@ -141,35 +142,18 @@ class RRCTraceCapture:
             return False
         
         try:
-            # 讀取日誌文件
-            with open(log_file, 'r') as f:
-                log_content = f.read()
-            
-            # 使用正則表達式提取 RRC 相關信息
-            rrc_pattern = r'(RRC|rrc).*?(Setup|Reconfig|Handover|Release|Establish|Complete)'
-            rrc_matches = re.finditer(rrc_pattern, log_content, re.IGNORECASE)
-            
-            rrc_logs = []
-            
-            for match in rrc_matches:
-                # 提取匹配行及其上下文
-                start = max(0, match.start() - 100)
-                end = min(len(log_content), match.end() + 100)
-                context = log_content[start:end]
-                
-                # 提取時間戳（假設日誌中有時間戳）
-                timestamp_match = re.search(r'\d{2}:\d{2}:\d{2}.\d+', context)
-                timestamp = timestamp_match.group(0) if timestamp_match else "unknown"
-                
-                rrc_log = {
-                    "timestamp": timestamp,
-                    "message": match.group(0),
-                    "context": context.strip()
+            messages = parse_rrc_log(log_file)
+
+            # 將解析結果轉換為更通用的格式
+            rrc_logs = [
+                {
+                    "timestamp": m.get("timestamp"),
+                    "message": m.get("content"),
+                    "direction": m.get("direction")
                 }
-                
-                rrc_logs.append(rrc_log)
-            
-            # 寫入 JSON 文件
+                for m in messages
+            ]
+
             with open(output_json, 'w') as f:
                 json.dump(rrc_logs, f, indent=2)
             
