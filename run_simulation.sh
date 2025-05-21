@@ -9,15 +9,15 @@ mkdir -p /home/ubuntu/rrc_analysis
 
 # 步驟1: 執行UE移動場景模擬
 echo "步驟1: 執行UE移動場景模擬..."
-python3 /home/ubuntu/ue_mobility_controller.py
+python3 /home/ubuntu/rrc_toolkit.py mobility
 
 # 步驟2: 捕獲RRC協議追蹤
 echo "步驟2: 捕獲RRC協議追蹤..."
-python3 /home/ubuntu/rrc_trace_capture.py
+python3 /home/ubuntu/rrc_toolkit.py capture
 
 # 步驟3: 分析RRC追蹤結果
 echo "步驟3: 分析RRC追蹤結果..."
-python3 /home/ubuntu/rrc_trace_analyzer.py
+python3 /home/ubuntu/rrc_toolkit.py analyze
 
 echo "模擬和分析完成！"
 echo "RRC追蹤結果保存在 /home/ubuntu/rrc_traces 目錄"
