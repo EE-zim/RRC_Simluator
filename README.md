@@ -182,6 +182,19 @@ The script will sequentially:
 2. Capture RRC protocol traces
 3. Analyze RRC trace results
 
+### 6.1.1 Unified Toolkit
+
+For a single entry point to these steps you can also use `rrc_toolkit.py` with different subcommands:
+
+```bash
+python3 rrc_toolkit.py mobility   # run mobility scenarios
+python3 rrc_toolkit.py capture    # capture traces
+python3 rrc_toolkit.py analyze    # analyze data
+python3 rrc_toolkit.py visualize  # create visualizations
+```
+
+Each subcommand corresponds to one of the scripts in this repository but provides a consolidated interface.
+
 ### 6.2 Viewing Results
 
 Simulation results are saved in:
