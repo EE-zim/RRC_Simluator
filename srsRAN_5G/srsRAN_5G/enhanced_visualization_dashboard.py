@@ -11,39 +11,10 @@ from dash import dcc, html, Input, Output, State
 import plotly.graph_objects as go
 import plotly.express as px
 import pandas as pd
-import json
 import os
+import json
 import datetime
-
-# --- 數據加載函數 ---
-
-def load_json_data(file_path):
-    """加載 JSON 數據"""
-    if os.path.exists(file_path):
-        try:
-            with open(file_path, 'r') as f:
-                return json.load(f)
-        except json.JSONDecodeError:
-            print(f"Error decoding JSON from {file_path}")
-            return None
-        except Exception as e:
-            print(f"Error loading {file_path}: {e}")
-            return None
-    else:
-        print(f"Warning: File not found - {file_path}")
-        return None
-
-def load_csv_data(file_path):
-    """加載 CSV 數據"""
-    if os.path.exists(file_path):
-        try:
-            return pd.read_csv(file_path)
-        except Exception as e:
-            print(f"Error loading {file_path}: {e}")
-            return None
-    else:
-        print(f"Warning: File not found - {file_path}")
-        return None
+from data_utils import load_json_data, load_csv_data
 
 # --- 數據準備 ---
 
