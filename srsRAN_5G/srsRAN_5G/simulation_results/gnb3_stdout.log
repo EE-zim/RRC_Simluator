@@ -1,6 +1,0 @@
-Active RF plugins: libsrsran_rf_zmq.so
-Inactive RF plugins: 
----  Software Radio Systems LTE eNodeB  ---
-
-Reading configuration file /home/eezim/workspace/srsRAN_5G/enhanced_srsran_configs/gnb/gnb3.conf...
-unrecognised option 'enb.cell_id'
