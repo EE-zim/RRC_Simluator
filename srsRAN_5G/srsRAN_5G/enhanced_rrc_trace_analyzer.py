@@ -2,10 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-增強型 RRC 追蹤分析工具
-此腳本實現了深入的 RRC 協議消息分析，包括 ASN.1 結構解析、關鍵參數提取和序列分析
+Advanced RRC trace analyzer that parses ASN.1 structures and extracts key parameters.
 """
-
 import os
 import sys
 import json
