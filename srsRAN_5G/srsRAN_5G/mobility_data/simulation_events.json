@@ -1,0 +1,147 @@
+[
+  {
+    "timestamp": "2025-04-29 11:13:14.773629",
+    "simulation_time": 0.0,
+    "message": "UE1 initially connected to gNB1 with RSRP -3.08 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:13:14.773690",
+    "simulation_time": 0.0,
+    "message": "UE2 initially connected to gNB2 with RSRP -1.10 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:13:14.773737",
+    "simulation_time": 0.0,
+    "message": "UE3 initially connected to gNB3 with RSRP -4.38 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:13:14.773799",
+    "simulation_time": 0.0,
+    "message": "UE4 initially connected to gNB4 with RSRP -4.01 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:13:14.773819",
+    "simulation_time": 0.0,
+    "message": "UE5 initially connected to gNB2 with RSRP -34.03 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:13:14.773847",
+    "simulation_time": 0.0,
+    "message": "UE6 initially connected to gNB1 with RSRP -51.96 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:13:14.820561",
+    "simulation_time": 0.0,
+    "message": "Simulation started with SimplifiedChannelModel"
+  },
+  {
+    "timestamp": "2025-04-29 11:13:31.823351",
+    "simulation_time": 17.0,
+    "message": "Handover: UE6 from gNB1 to gNB2, RSRP: -55.64 -> -51.13 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:13:41.056095",
+    "simulation_time": 25.0,
+    "message": "Random Event: UE6 stopped"
+  },
+  {
+    "timestamp": "2025-04-29 11:13:43.025161",
+    "simulation_time": 27.0,
+    "message": "Handover: UE4 from gNB4 to gNB2, RSRP: -53.16 -> -48.56 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:13:49.026676",
+    "simulation_time": 33.0,
+    "message": "Handover: UE6 from gNB2 to gNB1, RSRP: -55.37 -> -51.47 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:13:49.037333",
+    "simulation_time": 33.0,
+    "message": "Random Event: UE2 stopped"
+  },
+  {
+    "timestamp": "2025-04-29 11:13:54.027680",
+    "simulation_time": 38.0,
+    "message": "Handover: UE6 from gNB1 to gNB2, RSRP: -55.96 -> -52.74 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:13:58.039489",
+    "simulation_time": 42.0,
+    "message": "Random Event: UE5 stopped"
+  },
+  {
+    "timestamp": "2025-04-29 11:14:15.248389",
+    "simulation_time": 58.0,
+    "message": "Handover: UE6 from gNB2 to gNB1, RSRP: -55.67 -> -52.61 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:14:17.259753",
+    "simulation_time": 60.0,
+    "message": "Random Event: UE5 started"
+  },
+  {
+    "timestamp": "2025-04-29 11:14:20.258197",
+    "simulation_time": 63.0,
+    "message": "Handover: UE4 from gNB2 to gNB1, RSRP: -52.45 -> -47.79 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:14:33.261530",
+    "simulation_time": 76.0,
+    "message": "Handover: UE6 from gNB1 to gNB2, RSRP: -54.26 -> -50.95 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:14:36.261981",
+    "simulation_time": 79.0,
+    "message": "Handover: UE6 from gNB2 to gNB1, RSRP: -55.27 -> -52.17 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:14:46.306155",
+    "simulation_time": 89.0,
+    "message": "Handover: UE6 from gNB1 to gNB2, RSRP: -55.42 -> -51.19 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:14:49.473364",
+    "simulation_time": 91.0,
+    "message": "Handover: UE6 from gNB2 to gNB1, RSRP: -54.92 -> -51.68 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:14:51.485724",
+    "simulation_time": 93.0,
+    "message": "Random Event: UE2 started"
+  },
+  {
+    "timestamp": "2025-04-29 11:14:54.485222",
+    "simulation_time": 96.0,
+    "message": "Handover: UE6 from gNB1 to gNB2, RSRP: -55.48 -> -51.14 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:14:55.485314",
+    "simulation_time": 97.0,
+    "message": "Handover: UE4 from gNB1 to gNB3, RSRP: -54.46 -> -48.63 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:14:55.485380",
+    "simulation_time": 97.0,
+    "message": "Handover: UE6 from gNB2 to gNB1, RSRP: -55.13 -> -51.91 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:14:56.485571",
+    "simulation_time": 98.0,
+    "message": "Handover: UE6 from gNB1 to gNB2, RSRP: -55.93 -> -51.64 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:14:58.497050",
+    "simulation_time": 100.0,
+    "message": "Random Event: UE1 stopped"
+  },
+  {
+    "timestamp": "2025-04-29 11:15:04.486459",
+    "simulation_time": 106.0,
+    "message": "Handover: UE6 from gNB2 to gNB1, RSRP: -55.59 -> -52.25 dBm"
+  },
+  {
+    "timestamp": "2025-04-29 11:15:18.555475",
+    "simulation_time": 120.0,
+    "message": "Stopping simulation..."
+  }
+]

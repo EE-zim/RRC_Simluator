@@ -1,0 +1,4 @@
+Active RF plugins: libsrsran_rf_zmq.so
+Inactive RF plugins: 
+Reading configuration file /home/eezim/workspace/srsRAN_5G/enhanced_srsran_configs/ue/ue3.conf...
+unrecognised option 'pcap.filename'

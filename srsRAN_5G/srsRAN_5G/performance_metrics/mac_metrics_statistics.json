@@ -1,0 +1,11 @@
+{
+  "dl_throughput": {},
+  "ul_throughput": {},
+  "dl_latency": {},
+  "ul_latency": {},
+  "harq_retx": {},
+  "dl_mcs": {},
+  "ul_mcs": {},
+  "dl_rb_utilization": {},
+  "ul_rb_utilization": {}
+}
