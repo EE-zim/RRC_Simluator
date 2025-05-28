@@ -187,10 +187,13 @@ The script will sequentially:
 For a single entry point to these steps you can also use `rrc_toolkit.py` with different subcommands:
 
 ```bash
-python3 rrc_toolkit.py mobility   # run mobility scenarios
-python3 rrc_toolkit.py capture    # capture traces
-python3 rrc_toolkit.py analyze    # analyze data
-python3 rrc_toolkit.py visualize  # create visualizations
+python3 rrc_toolkit.py mobility    # run legacy mobility scenarios
+python3 rrc_toolkit.py capture     # capture traces
+python3 rrc_toolkit.py analyze     # analyze data with legacy scripts
+python3 rrc_toolkit.py visualize   # create visualizations
+python3 rrc_toolkit.py mobility5g  # run enhanced 5G mobility simulation
+python3 rrc_toolkit.py analyze5g   # analyze traces with enhanced analyzer
+python3 rrc_toolkit.py metrics     # collect performance metrics
 ```
 
 Each subcommand corresponds to one of the scripts in this repository but provides a consolidated interface.
