@@ -2,10 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-增強型 UE 移動模型控制器
-此腳本實現了更真實的 UE 移動模式，並包含可擴展的信道模型接口
+Enhanced UE mobility controller implementing realistic movement models and a pluggable channel model interface.
 """
-
 import os
 import sys
 import time

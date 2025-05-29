@@ -2,10 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-增強型可視化儀表板
-使用 Dash 和 Plotly 創建互動式儀表板來展示 5G 網絡性能指標
+Interactive dashboard built with Dash and Plotly to visualize 5G network performance metrics.
 """
-
 import dash
 from dash import dcc, html, Input, Output, State
 import plotly.graph_objects as go

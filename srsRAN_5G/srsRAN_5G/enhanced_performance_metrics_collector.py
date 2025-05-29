@@ -2,10 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-增強型性能指標收集工具
-此腳本實現了全面的性能指標收集功能，包括無線指標、MAC層統計和切換性能數據
+Comprehensive performance metrics collector for radio, MAC, and handover statistics.
 """
-
 import os
 import sys
 import json

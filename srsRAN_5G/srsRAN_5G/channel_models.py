@@ -1,3 +1,7 @@
+
+"""
+Common channel model definitions including a basic path loss implementation and a placeholder for external simulators.
+"""
 import math
 import random
 from abc import ABC, abstractmethod
